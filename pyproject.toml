@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "xs2a-secure-api"
+version = "0.1.0"
+description = ""
+authors = ["Aleksa Lukic <aleksalukic92@web.de>"]
+readme = "README.md"
+packages = [{include = "app", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
